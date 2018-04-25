@@ -1,0 +1,122 @@
+/* ==== AÇÕES SISTEMA ==== */
+.acoes-sistema-header{padding:10px; background: #F9F9F9;}
+/* ==== AÇÕES SISTEMA ==== */
+
+/* ==== ERROR SUMERY ==== */
+.errorSummary ul li{list-style: none;}
+/* ==== ERROR SUMERY ==== */
+
+/* ==== DIMENSSÃO DA COLUNO CÓDIGO DO GRID === */
+.style-table-codigo {width: 60px;}
+/* ==== DIMENSSÃO DA COLUNO CÓDIGO DO GRID === */
+
+/* ==== DIMENSSÃO DA COLUNO MARCADOR (CHECKBOX) DO GRID === */
+.style-table-marcador {width: 20px;}
+/* ==== DIMENSSÃO DA COLUNO MARCADOR (CHECKBOX) DO GRID === */
+
+/* ==== DIMENSSÃO DA COLUNA DO GRID === */
+.style-table-acoes {width: 207px;}
+.style-table-cnpj-acoes {width: 100px;}
+.style-table-two-acoes {width: 150px;}
+.style-table-tree-acoes {width: 290px;}
+.style-table-four-acoes {width: 440px;}
+.style-table-alto-acoes {width: 640px;}
+/* ==== DIMENSSÃO DA COLUNO AÇÕES DO GRID === */
+
+/* ==== DIMENSSÃO DE COLUNO COM TEXTO DO GRID === */
+.style-table-text {width: 290px;} /* normal */
+.style-table-text-min {width: 300px;} /* mini */
+.style-table-text-med {width: 600px;} /* medio */
+.style-table-text-max {width: 890px;} /* grande */
+.style-table-text-extra {width: 200px;} /* extra */
+/* ==== DIMENSSÃO DE COLUNO COM TEXTO DO GRID === */
+
+
+/* ==== DIMENSSÃO DA COLUNO DATA DO GRID === */
+.style-table-data {width: 100px;}
+/* ==== DIMENSSÃO DA COLUNO DATA DO GRID === */
+
+/* ==== DIMENSSÃO TOTAL DO GRID === */
+.style-table-width {width: 1116px;}
+.style-table-width-mini {width:1099px}
+.style-table-width-auto {width: 100% !important;}
+/* ==== DIMENSSÃO TOTAL DO GRID === */
+
+/* ==== BARRA DE ROLAGEM VERTICAL DO GRID === */
+.dt-wrapper {overflow: auto !important;}
+/* ==== BARRA DE ROLAGEM VERTICAL DO GRID === */
+
+/* ==== ALINHAR O ESTILO DE PAGINAÇÃO DO GRID === */
+ul.pagination{margin-right: 20px !important;}
+/* ==== ALINHAR O ESTILO DE PAGINAÇÃO DO GRID === */
+
+/*==== tamanho para Select do BancoAgencia =====*/
+.ddlJson {
+    width: 250px!important;
+}
+/*==== FullScreen =====*/
+
+/*==== Utilizando o botão na posição Rigth sem a tag <footer> =====*/
+.bnt-not-footer{
+    float: right;
+    height: 31px;
+    margin: 10px 0 0 5px;
+    margin-top: 10px;
+    padding: 0 22px;
+    font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
+}
+
+/* == BALÃO INFORMATIVO DE IMAGEM ==*/
+.imgLogo figure {    
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;    
+}
+.imgLogo figure figcaption {
+    display:block;
+    position:absolute;    
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.imgLogo figure h2 {
+    /*font-family:'Lato';*/
+    color: #fff;
+    font-size:14px;
+    /*text-align:left*/
+}
+.imgLogo figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    /*padding:29px 44px;
+    background-color:rgba(26,76,110,0.5);*/
+    background-color:rgba(26,76,110,0.5);
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.imgLogo figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.imgLogo figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.imgLogo figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}

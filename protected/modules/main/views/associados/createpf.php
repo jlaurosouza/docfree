@@ -1,0 +1,1 @@
+<?php $this->renderPartial('_formPF', array('model'=>$model, "page" => "create")); ?>
